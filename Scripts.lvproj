@@ -10,8 +10,26 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Support VIs" Type="Folder"/>
-		<Item Name="Database.lvclass" Type="LVClass" URL="../_Database/Database.lvclass"/>
+		<Item Name="Database" Type="Folder">
+			<Item Name="Ancestor" Type="Folder">
+				<Item Name="DatabaseAPI.lvclass" Type="LVClass" URL="../_Database/Ancestor/DatabaseAPI.lvclass"/>
+			</Item>
+			<Item Name="Implements" Type="Folder">
+				<Item Name="ScriptDatabase.lvclass" Type="LVClass" URL="../_Database/Implements/ScriptDatabase.lvclass"/>
+			</Item>
+		</Item>
+		<Item Name="Files" Type="Folder">
+			<Item Name="molataScripts.accdb" Type="Document" URL="../_Database/File Source/molataScripts.accdb"/>
+			<Item Name="molataScripts.mdb" Type="Document" URL="../_Database/File Source/molataScripts.mdb"/>
+		</Item>
+		<Item Name="QDFunctions" Type="Folder">
+			<Item Name="Implement" Type="Folder">
+				<Item Name="NormalQDFunc.lvclass" Type="LVClass" URL="../QDFunctions/Implements/NormalQDFunc/NormalQDFunc.lvclass"/>
+			</Item>
+			<Item Name="Interface" Type="Folder">
+				<Item Name="QDFunction.lvclass" Type="LVClass" URL="../QDFunctions/Interface/QDFunction.lvclass"/>
+			</Item>
+		</Item>
 		<Item Name="ScriptDialog.lvclass" Type="LVClass" URL="../ToolLauncher/ScriptDialog.lvclass"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="/C/Users/molata/Desktop/Bundle Scripts/Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
