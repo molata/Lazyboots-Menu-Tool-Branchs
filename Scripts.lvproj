@@ -23,9 +23,7 @@
 			<Item Name="molataScripts.mdb" Type="Document" URL="../_Database/File Source/molataScripts.mdb"/>
 		</Item>
 		<Item Name="QDFunctions" Type="Folder">
-			<Item Name="Implement" Type="Folder">
-				<Item Name="NormalQDFunc.lvclass" Type="LVClass" URL="../QDFunctions/Implements/NormalQDFunc/NormalQDFunc.lvclass"/>
-			</Item>
+			<Item Name="Implement" Type="Folder"/>
 			<Item Name="Interface" Type="Folder">
 				<Item Name="QDFunction.lvclass" Type="LVClass" URL="../QDFunctions/Interface/QDFunction.lvclass"/>
 			</Item>
@@ -39,12 +37,16 @@
 			</Item>
 			<Item Name="ScriptsDialog.ini" Type="Document" URL="../System/UIConfiguration/INI File/ScriptsDialog.ini"/>
 		</Item>
-		<Item Name="ForTest.vi" Type="VI" URL="../QDConfiguration/ForTest.vi"/>
+		<Item Name="QDList.lvclass" Type="LVClass" URL="../QDSearchList/QDList.lvclass"/>
 		<Item Name="ScriptDialog.lvclass" Type="LVClass" URL="../ToolLauncher/ScriptDialog.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="Change ListBox FocusRow.vi" Type="VI" URL="/&lt;userlib&gt;/View/List/Change ListBox FocusRow.vi"/>
 				<Item Name="Front Panel Defer Update.vi" Type="VI" URL="/&lt;userlib&gt;/View/Front Panel Defer Update.vi"/>
 				<Item Name="Get File Extension and Name Without Extension.vi" Type="VI" URL="/&lt;userlib&gt;/OpenG.lib/File/Get File Extension and Name Without Extension.vi"/>
+				<Item Name="Get Listbox FocusRow Text.vi" Type="VI" URL="/&lt;userlib&gt;/View/List/Get Listbox FocusRow Text.vi"/>
+				<Item Name="Initialize Listbox.vi" Type="VI" URL="/&lt;userlib&gt;/View/List/Initialize Listbox.vi"/>
+				<Item Name="Regular Search and Replace All Fitable Contents In String.vi" Type="VI" URL="/&lt;userlib&gt;/OpenG.lib/string/Regular Search and Replace All Fitable Contents In String.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
