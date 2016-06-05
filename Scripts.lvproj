@@ -12,33 +12,36 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Database" Type="Folder">
 			<Item Name="Ancestor" Type="Folder">
-				<Item Name="DatabaseAPI.lvclass" Type="LVClass" URL="../_Database/Ancestor/DatabaseAPI.lvclass"/>
+				<Item Name="DatabaseAPI.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LazyBootMenu/_Database/Ancestor/DatabaseAPI.lvclass"/>
 			</Item>
 			<Item Name="Implements" Type="Folder">
-				<Item Name="ScriptDatabase.lvclass" Type="LVClass" URL="../_Database/Implements/ScriptDatabase.lvclass"/>
+				<Item Name="ScriptDatabase.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LazyBootMenu/_Database/Implements/ScriptDatabase.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Files" Type="Folder">
-			<Item Name="molataScripts.accdb" Type="Document" URL="../_Database/File Source/molataScripts.accdb"/>
-			<Item Name="molataScripts.mdb" Type="Document" URL="../_Database/File Source/molataScripts.mdb"/>
+			<Item Name="molataScripts.accdb" Type="Document" URL="/&lt;vilib&gt;/LazyBootMenu/_Database/File Source/molataScripts.accdb"/>
+			<Item Name="molataScripts.mdb" Type="Document" URL="/&lt;vilib&gt;/LazyBootMenu/_Database/File Source/molataScripts.mdb"/>
 		</Item>
-		<Item Name="QDFunctions" Type="Folder">
-			<Item Name="Implement" Type="Folder"/>
+		<Item Name="QDList" Type="Folder">
+			<Item Name="Implement" Type="Folder">
+				<Item Name="QDDialogList.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LazyBootMenu/QDSearchList/QDDialogList.lvclass"/>
+			</Item>
 			<Item Name="Interface" Type="Folder">
-				<Item Name="QDFunction.lvclass" Type="LVClass" URL="../QDFunctions/Interface/QDFunction.lvclass"/>
+				<Item Name="QDList.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LazyBootMenu/QDFunctions/Interface/QDList.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="System" Type="Folder">
 			<Item Name="Implements" Type="Folder">
-				<Item Name="ScriptsDialogConfiguration.lvclass" Type="LVClass" URL="../System/Implements/SystemDialogConfiguration/ScriptsDialogConfiguration.lvclass"/>
+				<Item Name="ScriptsDialogConfiguration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LazyBootMenu/System/Implements/SystemDialogConfiguration/ScriptsDialogConfiguration.lvclass"/>
+				<Item Name="ScriptSettingConfiguration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LazyBootMenu/System/Implements/SystemSettingConfiguration/ScriptSettingConfiguration.lvclass"/>
 			</Item>
 			<Item Name="Interface" Type="Folder">
-				<Item Name="UIConfiguration.lvclass" Type="LVClass" URL="../System/UIConfiguration/UIConfiguration.lvclass"/>
+				<Item Name="UIConfiguration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LazyBootMenu/System/UIConfiguration/UIConfiguration.lvclass"/>
 			</Item>
-			<Item Name="ScriptsDialog.ini" Type="Document" URL="../System/UIConfiguration/INI File/ScriptsDialog.ini"/>
+			<Item Name="ScriptsDialog.ini" Type="Document" URL="/&lt;vilib&gt;/LazyBootMenu/System/UIConfiguration/INI File/ScriptsDialog.ini"/>
 		</Item>
-		<Item Name="QDList.lvclass" Type="LVClass" URL="../QDSearchList/QDList.lvclass"/>
-		<Item Name="ScriptDialog.lvclass" Type="LVClass" URL="../ToolLauncher/ScriptDialog.lvclass"/>
+		<Item Name="ScriptDialog.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LazyBootMenu/ToolLauncher/ScriptDialog.lvclass"/>
+		<Item Name="ScriptSetting.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LazyBootMenu/ScriptsConfiguration/ScriptSetting.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Change ListBox FocusRow.vi" Type="VI" URL="/&lt;userlib&gt;/View/List/Change ListBox FocusRow.vi"/>
@@ -74,6 +77,7 @@
 				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
 				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
 				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
@@ -83,6 +87,7 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>

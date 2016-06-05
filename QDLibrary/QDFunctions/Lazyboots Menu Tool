@@ -1,0 +1,9 @@
+[MENU]
+1. Resize Panel=SLK\Lazyboots Menu Tool\Public\ResizePanel__slk_mt.vi
+2. Set Label Position=SLK\Lazyboots Menu Tool\Public\SetLabelPosition__slk_mt.vi
+3. Add Error=SLK\Lazyboots Menu Tool\Public\AddError__slk_mt.vi
+4. Add Error Case=SLK\Lazyboots Menu Tool\Public\AddErrorCase__slk_mt.vi
+5. Wire Tunnel=SLK\Lazyboots Menu Tool\Public\WireTunnel__slk_mt.vi
+6. Create Enum=SLK\Lazyboots Menu Tool\Public\CreateEnum__slk_mt.vi
+7. Add Label=SLK\Lazyboots Menu Tool\Public\AddLabel__slk_mt.vi
+8. Add Compane=SLK\Lazyboots Menu Tool\Public\AddControlcompane__slk_mt.vi
